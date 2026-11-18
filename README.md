@@ -49,3 +49,15 @@ python ./odoo-bin -c odoo.conf -d rd-demo -i base
 ```bash
 python ./odoo-bin -c odoo.conf -d rd-demo
 ```
+
+### 3. Con tutorials
+
+```bash
+python odoo/odoo-bin --addons-path=odoo/addons,tutorials
+```
+
+### 4. Para actualizar un modulo
+
+```bash
+python odoo/odoo-bin --addons-path=odoo/addons,tutorials -d <base-de-datos> -u <nombre-del-modulo>
+```
